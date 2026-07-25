@@ -72,7 +72,7 @@ Create one from **Account → API tokens** in your DevLokalize dashboard. API ac
 
 `refresh` calls `GET /api/v1/projects/{slug}/bundle/{language}`, which returns every **approved** translation across every component in your project for that language. Untranslated or unreviewed strings are omitted — always pass a `default =` so your UI has something sensible to show either way.
 
-See the [API docs](https://github.com/cooltech90/devlokalize-web/blob/main/docs/API.md) for the full response shape.
+See the [API docs](https://cooltech90.github.io/devlokalize-docs/api.html) for the full response shape.
 
 ## Requirements
 
